@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1402</width>
+    <height>721</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>-250</x>
+      <y>-10</y>
+      <width>1681</width>
+      <height>861</height>
+     </rect>
+    </property>
+    <property name="toolTip">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;a href=&quot;C:\Users\Lenovo\Downloads\211.png&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0000ff;&quot;&gt;image&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">*{
+font-family:century gothic;
+background:#ffb56a;
+font-size:17px;
+
+}
+QGroupBox
+{
+background:#ffb56a;
+background-image:url(:/selem2.jpg);
+}
+#ajouter_employer
+{
+background:#299a7a;
+border-radius:15px;
+}
+#ajouter_employer:hover
+{
+color:#333;
+border-radius:60px;
+background:red;
+}
+#pushButton_supprimer
+{
+background:#299a7a;
+border-radius:15px;
+}
+#pushButton_supprimer:hover
+{
+color:#333;
+border-radius:60px;
+background:red;
+}
+#nom
+{
+background:#299a7a;
+border-radius:15px;
+}
+#nom:hover
+{
+color:#333;
+border-radius:60px;
+background:red;
+}
+#prenom
+{
+background:#299a7a;
+border-radius:15px;
+}
+#prenom:hover
+{
+color:#333;
+border-radius:60px;
+background:red;
+}
+#id
+{
+background:#299a7a;
+border-radius:15px;
+}
+#id:hover
+{
+color:#333;
+border-radius:60px;
+background:red;
+}
+#pushButton_modifier
+{
+background:#299a7a;
+border-radius:15px;
+}
+#pushButton_modifier:hover
+{
+color:#333;
+border-radius:60px;
+background:red;
+}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>../../Downloads/211.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton">
+    <property name="geometry">
+     <rect>
+      <x>220</x>
+      <y>230</y>
+      <width>261</width>
+      <height>151</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 75 10pt &quot;Microsoft YaHei UI&quot;;
+font-weight: bold;
+color: rgb(255, 255, 255);
+background-color: rgba(38,38,38,255);
+border-style: solid;
+border-radius:21px;</string>
+    </property>
+    <property name="text">
+     <string>Gestion Employe</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_2">
+    <property name="geometry">
+     <rect>
+      <x>680</x>
+      <y>230</y>
+      <width>261</width>
+      <height>151</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 75 10pt &quot;Microsoft YaHei UI&quot;;
+font-weight: bold;
+color: rgb(255, 255, 255);
+background-color: rgba(38,38,38,255);
+border-style: solid;
+border-radius:21px;</string>
+    </property>
+    <property name="text">
+     <string>Fermer </string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1402</width>
+     <height>26</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
